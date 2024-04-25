@@ -234,7 +234,9 @@
 
   </section>
 
-
+  <a href="#home">
+    <i class="ri-arrow-up-line arrow-icon" id="arrow-icon"></i>
+  </a>
 
   <!-- booksection  -->
   <section class="part-two ">
@@ -286,11 +288,13 @@
         </div>
       </div>
 
-
+      
 
     </div>
+    
+    
   </section>
-
+  
 
   <!-- section_2_service-page-no-2 -->
   <section class="book-section section-padding " id="Services">
@@ -869,6 +873,15 @@
     $(this).scrollTop(0);
 });
 
+//for arrow icon go to home
+window.addEventListener("scroll", function() {
+    var button = document.getElementById("arrow-icon");
+    if (window.scrollY > 520) {
+        button.style.display = "block"; // Show the button when user scrolls down
+    } else {
+        button.style.display = "none"; // Hide the button when user is at the top of the page
+    }
+});
 // JavaScript to scroll to the top on page load
 // document.addEventListener('DOMContentLoaded', function() {
 //         window.scrollTo(0, 0);

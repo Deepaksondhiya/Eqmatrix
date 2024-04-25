@@ -279,7 +279,18 @@ body .cls-1 {
   padding-bottom: 75px;
 }
 
-
+.arrow-icon{
+  position: fixed;
+  bottom: 60px;
+  right: 10px;
+  padding: 1px 5px;
+  background-color: #dfebf7;
+  color: #28353d;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.61);
+}
 .part-two {
   /* padding-top: 100px !important; */
   /* padding-bottom: 60px !important; */
@@ -777,6 +788,13 @@ footer {
 
 /* media queries for mobile phones*/
 @media only screen and (max-width:600px) {
+
+  .arrow-icon{
+    /* bottom: 180px; */
+    bottom: 20px;
+    z-index: 999;
+
+  }
 
   /* nav icon */
 
