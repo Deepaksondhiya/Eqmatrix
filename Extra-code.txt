@@ -1,0 +1,68 @@
+ <!-- service icon section  -->
+  <section id="service-icon" class="section-padding book-section">
+
+    <!-- text area -->
+    <div class=" col-md-4 srvc-text-box ">
+      <div class="description">
+        <h1 class="title">
+          <span class="gradient-text">Grow Professionally</span> with the Best
+        </h1>
+        <p class="paragraph">
+          In a world where golden opportunities and a cut-throat competition goes hand in hand, having a mentor can make
+          all the difference. Explore with us why people turn to this invaluable resource to unlock their potential and
+          rely on this essential resource to build a path for a bright and outstanding future. We offer you a number of
+          opportunities to shape yourself and your career path.
+        </p>
+
+      </div>
+    </div>
+
+
+    <!-- image area -->
+    <div class="col-md-6 col-md-4 ">
+      <div class="users-color-container">
+
+        <!-- <img class="item" style="--i: 2" alt=""/> -->
+
+
+        <!--shape 1-->
+        <span class="item" data-aos="zoom-in" style="--i: 1"></span>
+
+        <!--shape 2-->
+        <img class="item" src="/img-bg/technologies/net.png" style="--i: 2" alt="" />
+
+        <!--shape 3-->
+        <span class="item" style="--i: 3"></span>
+
+        <!--shape 4-->
+        <img class="item" data-aos="zoom-in" style="--i: 4" alt="" />
+
+
+        <!--shape 5-->
+        <img class="item" data-aos="zoom-in" style="--i: 10" alt="" />
+
+        <!--shape 6-->
+        <span class="item" style="--i: 11"></span>
+
+
+        <!--shape 7-->
+        <img class="item" data-aos="zoom-in" style="--i: 12 " alt="" />
+
+        <!--shape 8-->
+        <span class="item" style="--i: 5"></span>
+
+        <!--shape 9-->
+        <span class="item" style="--i: 9"></span>
+
+        <!--shape 10-->
+        <img class="item" data-aos="zoom-in" style="--i: 8" alt="" />
+
+        <!--shape 11-->
+        <span class="item" style="--i: 7"></span>
+
+        <!--shape 12-->
+        <img class="item" data-aos="zoom-in" style="--i: 6" alt="" />
+      </div>
+
+    </div>
+  </section>
