@@ -8,7 +8,8 @@
   <link rel="icon" type="image/x-icon" href="img-bg/company logo/logo.png">
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <!-- main css file -->
+  <link rel="stylesheet" href="css/style.css" media="all">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -66,10 +67,10 @@
     }
 
     .fa {
-      padding: 6px;
-      font-size: 9px;
-      width: 20px;
-      height: 20px;
+      padding: 7px;
+      font-size: 12px;
+      width: 25px;
+      height: 25px;
       text-decoration: none;
       /* box-shadow: 2px 4px 5px rgb(0, 0, 0); */
     }
@@ -114,7 +115,7 @@
     .ri-twitter-x-line {
 
       color: white;
-      font-size: 8px;
+      font-size: 12px;
       background: black;
       padding: 6px;
       box-shadow: 2px 4px 5px rgba(0, 0, 0);
@@ -142,7 +143,8 @@
     <nav class="sticky-wrapper is-sticky navbar navbar-expand-lg fixed-top  ">
       <div class="container">
 
-        <a class="navbar-brand" href="#home"><img src="img-bg/company logo/logo.png" height="auto" width="100"></a>
+        <a class="navbar-brand" href="#home"><img src="img-bg/company logo/logo crop.png" loading="lazy" height="auto"
+            width="100"></a>
 
         <button class="navbar-toggler m-0  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -152,34 +154,25 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link " href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Services">Services</a>
+              <a class="nav-link " href="#Services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#values">Values</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Career">
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Career</button>
+              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#About_Us">About Us</a>
             </li>
-
             <li class="nav-item">
-              <a class="nav-link" href="#values">Values</a>
+              <a class="nav-link" href="#Contact_Us">Connect</a>
             </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#Contact_Us">Contact</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#Career">
-                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Careers</button>
-              </a>
-            </li>
-
-
-
-
-
-
           </ul>
         </div>
       </div>
@@ -189,7 +182,7 @@
   </header>
 
   <!-- Banner Section -->
-  <section id="home" class="banner">
+  <section id="home" class="banner section-menu">
 
     <div class="container  first-box">
 
@@ -222,8 +215,8 @@
 
 
 
-<h2>We take care of your digital ecosystem and all its needs</h2>
-<h4>Cloud | Data | Support | Web Development | Recruitment</h4>
+      <h2>We take care of your digital ecosystem and all it's needs</h2>
+      <h4>Cloud | Data | Support | Web Development | Recruitment</h4>
       <!-- <h1 class="company-title">Welcome to EQ-MATRIX.</h1> -->
       <!-- <div class="text-fix">
         <h1 class="slide-right "> Trust Us Today,</h1>
@@ -247,58 +240,59 @@
   <!-- booksection  -->
 
   <section id="Introductory">
-    <h5 class="text-center inrto-heading">At EQ Matrix, we understand your problems at their roots and provide solutions
+    <h5 class="text-center inrto-heading">At EqMatrix, we understand your problems at their roots and provide solutions
       for sustainable outcomes!
-      </h2>
-      <div class="container intro-box">
-        <div class="card intro-card col-md-4">
-          <h5 class="text-center intro-ttl">Stability </h5>
-          <p><span>Over 59% of Fortune 500 companies experience a minimum of 1.6 hours of downtime per week*</span>
-            <br><br>
-            The accelerating move to the cloud and the compatibility of your legacy technologies with your new systems
-            can cause unwanted downtimes that eat away from your top line. We ensure that such system instabilities are
-            identified and addressed to minimize all future impact early in the project lifecycle, providing you
-            predictability and efficiency in IT operations.</p>
-        </div>
-
-        <div class="card intro-card col-md-4">
-          <h5 class="text-center intro-ttl">Speed </h5>
-          <p>
-            <span>Every second of downtime costs over $150** which can snowball to over $1 million per hour***</span>
-            <br> <br>
-            While we progressively improve your system stability, our support services are always ready, monitoring your
-            IT infrastructure to mitigate and address any problem as they arise. With a holistic approach, our support
-            staff continuously finds ways to identify and resolve issues before they become critical and hamper your
-            business continuity.
-          </p>
-        </div>
-
-
-        <div class="card intro-card col-md-4">
-          <h5 class="text-center intro-ttl">Scalability</h5>
-          <p> <span>Our services save up to 70% of your costs in operating internal teams, 90% in HR and 100% in
-              overheads </span>
-            <br>
-            <br>
-            EQ Matrix provides you instant activation of projects and quick resourcing of skills so you can operate
-            without worrying about skill gaps, iteration of employees, underutilization of resources and all HR
-            complexities. Our services add predictability to your bottom line management while providing scalable
-            resources on-demand.
-          </p>
-
-        </div>
+    </h5>
+    <div class="container intro-box">
+      <div class="card intro-card col-md-4" data-aos="flip-up" data-aos-duration="1200">
+        <h5 class="text-center intro-ttl">Stability </h5>
+        <p><span>Over 59% of Fortune 500 companies experience a minimum of 1.6 hours of downtime per week*</span>
+          <br><br>
+          The accelerating move to the cloud and the compatibility of your legacy technologies with your new systems
+          can cause unwanted downtimes that eat away from your top line. We ensure that such system instabilities are
+          identified and addressed to minimize all future impact early in the project lifecycle, providing you
+          predictability and efficiency in IT operations.
+        </p>
       </div>
 
-      <p class="star-text">
-        *Dun & Bradstreet	<br>
-**SolarWinds	<br>
-***IDC survey
+      <div class="card intro-card col-md-4" data-aos="flip-up" data-aos-duration="1200">
+        <h5 class="text-center intro-ttl">Speed </h5>
+        <p>
+          <span>Every second of downtime costs over $150** which can snowball to over $1 million per hour***</span>
+          <br> <br>
+          While we progressively improve your system stability, our support services are always ready, monitoring your
+          IT infrastructure to mitigate and address any problem as they arise. With a holistic approach, our support
+          staff continuously finds ways to identify and resolve issues before they become critical and hamper your
+          business continuity.
+        </p>
+      </div>
 
-      </p>
+
+      <div class="card intro-card col-md-4" data-aos="flip-up" data-aos-duration="1200">
+        <h5 class="text-center intro-ttl">Scalability</h5>
+        <p> <span>Our services save up to 70% of your costs in operating internal teams, 90% in HR and 100% in
+            overheads </span>
+          <br>
+          <br>
+          EqMatrix provides you instant activation of projects and quick resourcing of skills so you can operate
+          without worrying about skill gaps, iteration of employees, underutilization of resources and all HR
+          complexities. Our services add predictability to your bottom line management while providing scalable
+          resources on-demand.
+        </p>
+
+      </div>
+    </div>
+
+    <!-- <p class="star-text">
+      *Dun & Bradstreet <br>
+      **SolarWinds <br>
+      ***IDC survey
+
+    </p> -->
   </section>
 
   <!-- section_2_service-page-no-2 -->
-  <section class="book-section section-padding " id="Services">
+  <section class="book-section section-padding section-menu" id="Services">
 
     <div class="container"> <!-- container -->
       <h1 class="text-center main-title p-1">Services</h1> <!-- main-heading-->
@@ -307,9 +301,10 @@
         <!-- col-first -->
         <div class="col-md-6 col-12 col-lg-6 col-sm-6" data-aos="flip-left" data-aos-duration="1000">
           <div class="card whitecard p-2 shadow">
-            <img src="img-bg/Service-card-img/img-1.png" style=" width:25%" class="card-img-top" alt="...">
+            <img src="img-bg/Service-card-img/img-1.png" loading="lazy" style=" width:25%" class="card-img-top"
+              alt="...">
             <div class="card-body">
-              <h5 class="card-title text-center main-title">Data Management</h5>
+              <h5 class="card-title text-center ">Data Management</h5>
               <p class="card-text text-center">Most enterprises are moving to the cloud while retaining their
                 on-premises infrastructures as well, making data management from these disparate data sources complex
                 and critical. Our data management services offer unmatched command centralized storage while optimizing
@@ -321,12 +316,13 @@
         <!-- col-two -->
         <div class="col-md-6 col-12 col-lg-6 col-sm-6" data-aos="flip-right" data-aos-duration="1000">
           <div class="card whitecard p-2 shadow">
-            <img src="img-bg/Service-card-img/cloud.jpg" style=" width:17.5%" class="card-img-top" alt="...">
+            <img src="img-bg/Service-card-img/cloud.jpg" loading="lazy" style=" width:17.5%" class="card-img-top"
+              alt="...">
             <div class="card-body">
               <h5 class="card-title text-center main-title">Cloud</h5>
               <p class="card-text text-center">Our wide range of cloud services coupled with some advanced techniques
                 aid you in elevating your capabilities and capacities of performing tasks, whichever cloud platforming
-                model you are working with or want to implement. With EQ Matrix, you can get the best out of your IT
+                model you are working with or want to implement. With EqMatrix, you can get the best out of your IT
                 infrastructure and cloud with flexible servicing models and support.
               </p>
             </div>
@@ -337,7 +333,8 @@
         <!-- col-three -->
         <div class="col-md-6 col-12 col-lg-6 col-sm-6" data-aos="flip-left" data-aos-duration="1000">
           <div class="card whitecard p-2 shadow">
-            <img src="img-bg/Service-card-img/img-3.png" style=" width:20%" class="card-img-top" alt="...">
+            <img src="img-bg/Service-card-img/img-3.png" loading="lazy" style=" width:20%" class="card-img-top"
+              alt="...">
             <div class="card-body">
               <h5 class="card-title text-center main-title">Quality Analysis</h5>
               <p class="card-text text-center">If resilient, effective, and consumer friendly products are your
@@ -352,13 +349,14 @@
         <!-- col-four -->
         <div class="col-md-6 col-12 col-lg-6 col-sm-6" data-aos="flip-right" data-aos-duration="1000">
           <div class="card whitecard p-2 shadow">
-            <img src="img-bg/Service-card-img/staffing.jpg" style=" width:20%" class="card-img-top" alt="...">
+            <img src="img-bg/Service-card-img/staffing.jpg" loading="lazy" style=" width:20%" class="card-img-top"
+              alt="...">
             <div class="card-body">
               <h5 class="card-title text-center main-title">Staffing Solutions</h5>
               <p class="card-text text-center">Looking to scale up resources and teams? Don’t just hire, strengthen your
                 organization with our flexible staffing solutions that provide you with highly skilled resources,
-                rigorously screened by our experts. With quick turnaround time for your requirements, we ensure that
-                your requirements are met at par with your requirements.
+                rigorously screened by our experts. With quick turnaround time, we ensure that your needs are met at par
+                with your requirements.
               </p>
             </div>
           </div>
@@ -383,9 +381,9 @@
           <div class="card rounded-card">
             <div class="card-body pg2-card">
               <h2 class="main-title  pad-on-text">Custom Software</h2>
-              <p>When you opt for custom software and services from EQ Matrix, you opt for innovations and benefits
+              <p>When you opt for custom software and services from EqMatrix, you opt for innovations and benefits
                 beyond just the solution. We pay attention to your challenges and requirements, offering our services
-                appropriately to provide best-in-class solutioning, high performing software, and fast delivery.
+                appropriately to provide best in class solutioning, high performing software, and fast delivery.
               </p>
             </div>
           </div>
@@ -398,9 +396,10 @@
             <div class="card-body pg2-card">
               <h2 class="main-title">Enterprise Software</h2>
               <p>Enterprise IT systems are complex, often constructed with various tech stacks and technology mix. We
-                help develop, monitor and maintain these systems while also assisting our clients in simplifying their
-                systems, streamlining information and communicate their goals more effectively so we can advance
+                help develop, monitor and maintain their technologies while also assisting our clients in simplifying
+                their systems, streamlining information and communicate their goals more effectively so we can advance
                 efficiently towards achieving them.
+
               </p>
             </div>
           </div>
@@ -414,8 +413,9 @@
               <h2 class="main-title pad-on-text">Mobile Application</h2>
               <p>Mobile applications are not just software, they are the touchpoints that connect customers directly and
                 closely with your business. To give your customers an experience to remember, our teams develop
-                stunning, market defining mobile apps for all platforms, including iOS and Android, giving you an
-                end-to-end solution for all your needs. </p>
+                stunning, market defining mobile apps for all platforms, including iOS and Android, giving you an end to
+                end solution for all your needs.
+              </p>
             </div>
           </div>
 
@@ -489,7 +489,7 @@
   </section> -->
 
   <!-- for demo -->
-  <section class="book-section value" id="values">
+  <section class="book-section value section-menu" id="values">
 
     <!-- main-container -->
     <div class="col-md-12 whitebox">
@@ -501,7 +501,7 @@
         <!-- col-one -->
         <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
           <div class="card xyz  p-2 ">
-            <img src="img-bg/value-card-img/01.png" style=" width:41%" class="card-img-top" alt="...">
+            <img src="img-bg/value-card-img/01.png" loading="lazy" style=" width:41%" class="card-img-top" alt="...">
             <div class="card-body">
               <h2 class="card-title text-center ">VISION</h2>
               <p class="card-text text-center">We intend to solidify our position in the IT market through innovation
@@ -513,7 +513,7 @@
         <!-- col-two -->
         <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
           <div class="card xyz p-2">
-            <img src="img-bg/value-card-img/02.png" style=" width:40%" class="card-img-top" alt="...">
+            <img src="img-bg/value-card-img/02.png" loading="lazy" style=" width:40%" class="card-img-top" alt="...">
             <div class="card-body">
               <h2 class="card-title text-center">MISSION</h2>
               <p class="card-text text-center">We strive to deliver all our clients most beneficial solutions and value
@@ -525,7 +525,7 @@
         <!-- col-three -->
         <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
           <div class="card xyz p-2">
-            <img src="img-bg/value-card-img/03.png" style=" width:56%" class="card-img-top" alt="...">
+            <img src="img-bg/value-card-img/03.png" loading="lazy" style="  width:56%" class="card-img-top" alt="...">
             <div class="card-body">
               <h2 class="card-title text-center ">VALUE</h2>
               <p class="card-text text-center para-margin">We aim to strengthen our relationships in the long run with
@@ -543,7 +543,7 @@
 
 
   <!-- section_4_career-page-no-4 -->
-  <section class="book-section  career" id="Career">
+  <section class="book-section  career section-menu" id="Career">
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -562,10 +562,10 @@
                 <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                 <label for="floatingInput">Email address</label>
               </div>
-              <div class="form-floating">
+              <!-- <div class="form-floating">
                 <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                 <label for="floatingPassword">Password</label>
-              </div>
+              </div> -->
 
               <div class="mb-3">
                 <label for="formFile" class="form-label">Resume</label>
@@ -643,7 +643,7 @@
 
 
   <!-- section_5_about-page-no-5 -->
-  <section class="book-section section-padding about" id="About_Us">
+  <section class="book-section section-padding about section-menu" id="About_Us">
     <div class="container">
       <!-- row -->
       <div class="row alignment">
@@ -653,22 +653,22 @@
 
           <h1 class="main-title-pg5" data-aos="fade-right" data-aos-duration="900">About Us</h1>
           <p class="main-title-pg5" data-aos="fade-right" data-aos-duration="900">As a business and technology solutions
-            provider, EQ Matrix is a team of high-performing individuals and partners. We are motivated and bound by the
+            provider, EqMatrix is a team of high-performing individuals and partners. We are motivated and bound by the
             systematic effort to provide absolutely excellent services, almost to the point of being an OCD. We endeavor
             to assist businesses of all sizes and scales in their journey of growth, innovation, and delighting their
             customers.
             <br>
             <br>
-            With our clients’ larger goals in mind, we play our part in providing cloud solutions, custom software,
+            With our client's larger goals in mind, we play our part in providing cloud solutions, custom softwares,
             production support & maintenance, enterprise software, mobile applications, test automation, and blockchain.
-            We don’t just act as an extension to our clients’ team, we become the go to team that they can rely upon for
+            We don't just act as an extension to our client's team, we become the go to team that they can rely upon for
             quick and efficient deliveries.
 
         </div>
 
         <!-- col-second-bg-img -->
         <div class="col-md-4 img col-lg-6 ">
-          <img src="img-bg/bg-img/about.png" style="width: 100%">
+          <img src="img-bg/bg-img/about.png" loading="lazy" style="width: 100%">
         </div>
 
       </div>
@@ -679,7 +679,7 @@
 
 
   <!-- section_6_contact-page-no-6 start -->
-  <section class="book-section contact" id="Contact_Us">
+  <section class="book-section contact section-menu" id="Contact_Us">
 
     <!-- container -->
     <div class="container main-box-pg6">
@@ -768,8 +768,8 @@
     <!-- footer start -->
     <footer>
       <div class="row lastrowpad">
-        <div class="col-md-4">
-          <a href="#home"><img src="img-bg/company logo/logo.png" style="width: 20%;" alt=""></a>
+        <div class="col-md-4 ft-logo">
+          <a href="#home"><img src="img-bg/company logo/logo crop.png" loading="lazy" style="width: 20%;" alt=""></a>
         </div>
         <div class="col-md-4">
           <p class="fw-light text-center ftr-pad"> <span id="demo"></span>, All Rights Reserved. EqMatrix Solutions Pvt
@@ -795,7 +795,7 @@
             <a href="https://www.linkedin.com/in/eq-matrix-773662300/" target="_blank" class="fa  fa-linkedin"></a>
             <!--i-cons-->
             <!-- <a href="#" class="fa fa-youtube"></a>
-        <a href="#" class="fa fa-instagram"></a> -->
+    <a href="#" class="fa fa-instagram"></a> -->
           </div>
         </div>
       </div>
@@ -812,7 +812,20 @@
   <!-- animation on scroll link -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-    AOS.init();
+    // AOS.init();
+
+    document.addEventListener('DOMContentLoaded', function () {
+      AOS.init();
+
+      var iconButton = document.querySelectorAll('.nav-link');
+
+      iconButton.addEventListener('click', function () {
+        iconButton.classList.remove('aos-animate');
+        setTimeout(function () {
+          iconButton.classList.add('aos-animate');
+        }, 400);
+      });
+    });
   </script>
 
 
@@ -825,13 +838,15 @@
     const form = document.querySelector('#form')
 
     form.addEventListener('submit', e => {
-      e.preventDefault()
+            e.preventDefault()
 
-      // console.log(form)
-      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => { alert('Submit!', response) })
-        .catch(error => { alert('Error!', response) })
+            // console.log(form)
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => { alert('Form submitted successfully! ✅', response) })
+                .catch(error => { alert('An error occurred while submitting the form. ❌', response) })
+                form.reset();
 
+       
     })
   </script>
 
@@ -859,10 +874,6 @@
           }
         }
       });
-
-
-
-
     });
 
     document.querySelectorAll('.nav-link').forEach(item => {
@@ -874,52 +885,31 @@
     });
   </script>
 
-
-  <!-- home page animation text  -->
+  <!-- menu -->
   <script>
+    const sections = document.querySelectorAll('.section-menu');
+    const menuLinks = document.querySelectorAll('.nav-item a');
 
-    const typedTextSpan = document.querySelector(".typed-text");
-    const cursorSpan = document.querySelector(".cursor");
+    function onScroll() {
+      let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
 
-    const textArray = ["hard", "fun", "a journey", "LIFE"];
-    const typingDelay = 200;
-    const erasingDelay = 100;
-    const newTextDelay = 2000; // Delay between current and next text
-    let textArrayIndex = 0;
-    let charIndex = 0;
+      sections.forEach((section, index) => {
 
-    function type() {
-      if (charIndex < textArray[textArrayIndex].length) {
-        if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
-        typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
-        charIndex++;
-        setTimeout(type, typingDelay);
-      }
-      else {
-        cursorSpan.classList.remove("typing");
-        setTimeout(erase, newTextDelay);
-      }
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+
+        if (scrollPosition >= sectionTop - 60 && scrollPosition < sectionTop + sectionHeight - 60) {
+          menuLinks.forEach(link => link.classList.remove('active'));
+          menuLinks[index].classList.add('active');
+        }
+      });
     }
 
-    function erase() {
-      if (charIndex > 0) {
-        if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
-        typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
-        charIndex--;
-        setTimeout(erase, erasingDelay);
-      }
-      else {
-        cursorSpan.classList.remove("typing");
-        textArrayIndex++;
-        if (textArrayIndex >= textArray.length) textArrayIndex = 0;
-        setTimeout(type, typingDelay + 1100);
-      }
-    }
-
-    document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
-      if (textArray.length) setTimeout(type, newTextDelay + 250);
-    });
+    window.addEventListener('scroll', onScroll);
   </script>
+
+
+
 
   <script>
     var morphTimeline = new TimelineMax({
@@ -934,19 +924,17 @@
       .to($('#megaphone'), 2, { morphSVG: { shape: "#light" }, fill: "none" }, "+=2")
       .to($('#megaphone'), 2, { morphSVG: { shape: "#megaphone" }, fill: "none" }, "+=2")
       ;
-
-    /*TweenMax.to($('#megaphone'),3,{stroke:"hsl(+=360,+=0%,+=0%)",repeat:-1,yoyo:true});*/
-
-    /*TweenMax.to($('#megaphone'),3,{stroke:"hsl(+=0,+=0%,-=50%)",repeat:-1,yoyo:true,repeatDelay:0});*/
   </script>
 
   <script>
+
     // go to home page on reload
     $(document).ready(function () {
       $(this).scrollTop(0);
     });
 
-    //for arrow icon go to home
+
+    //for arrow icon on click go to home the home page
     window.addEventListener("scroll", function () {
       var button = document.getElementById("arrow-icon");
       if (window.scrollY > 520) {
@@ -955,27 +943,11 @@
         button.style.display = "none"; // Hide the button when user is at the top of the page
       }
     });
-
-    // JavaScript to scroll to the top on page load
-    // document.addEventListener('DOMContentLoaded', function() {
-    //         window.scrollTo(0, 0);
-    //     });
   </script>
-  <!-- <script>
-    var t1 = new TimelineMax();
-    t1.from("#stand", 0.5, { scaleY: 0, transformOrigin: "bottom", ease: Power2.easeout })
-      .from("#standBack", 0.5, { scaleY: 0, transformOrigin: "bottom", ease: Bounce.easeout })
-      .from("#screen", 0.7, { scaleX: 0, transformOrigin: "center", ease: Bounce.easeout })
-      .from("#monitorBottom", 0.6, { scaleY: 0, transformOrigin: "bottom", ease: "Circ.easeout", delay: 0.4 })
-      .from("#yellowBox", 0.5, { scale: 0 })
-      .staggerFrom('#Layer_1 > g:nth-child(1) > g path', 0.2, { scaleX: 0 }, -0.1)
-  </script> -->
+
 
 
   <script src="js/bootstrap.bundle.min.js"></script>
-  <!-- <script src="js/jquery.sticky.js"></script>
-  <script src="js/click-scroll.js"></script>
-  <script src="js/custom.js"></script> -->
   <!-- Bootstrap JS (Optional, if you need dropdowns or toggles) -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 

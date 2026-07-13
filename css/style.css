@@ -277,7 +277,7 @@ color: #28353d !important;
   position: absolute;
   bottom: 0;
   right: 0;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   margin-right: 10px;
 }
 .intro-box{
@@ -290,7 +290,7 @@ justify-content: space-around;
 
 .intro-card{
   height: 420px;
-  width: 300px;
+  width: 350px;
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 30px;
@@ -318,8 +318,9 @@ justify-content: space-around;
   font-weight: 600;
 }
 .inrto-heading{
-  margin-top: 20px;
-  padding: 10px;
+  font-weight: 600;
+  /* margin-top: 20px; */
+  padding: 5px;
 }
 /* --------part two css ----------- */
 
@@ -363,7 +364,7 @@ justify-content: space-around;
 
 .arrow-icon{
   position: fixed;
-  bottom: 10px;
+  bottom: 12px;
   right: 10px;
   padding: 1px 5px;
   background-color: #dfebf7;
@@ -737,6 +738,7 @@ background-position: center;
 
 #About_Us {
   /* height: 100vh; */
+  /* padding-top: 20; */
 }
 
 /* row */
@@ -778,7 +780,9 @@ page-6*/
   padding: 10px;
 
 }
-
+.contact{
+  /* height: 100vh; */
+}
 .address-area{
   margin-top: 1rem;
 }
@@ -841,7 +845,7 @@ page-6*/
 }
 
 #Contact_Us {
-  padding-top: 10px;
+  padding-top: 88px;
 }
 
 #Contact_us p {
@@ -878,15 +882,30 @@ background: linear-gradient(90deg, rgb(170, 199, 215) 0%, rgb(223, 235, 247) 43%
   padding-bottom: 1px !important;
   padding-top: 1px !important;
   font-weight: 600;
+transition: all background-color 1s ease;
 
+}
+.nav-item a.active{
+
+  background-color: #aac7d7  !important;
+  transform: scale(1.1);
+border-radius: 5px;
+/* transition: all .5s; */
 }
 
 .nav-item a:hover {
+ 
   color: #28353d !important;
-  border-bottom: .3px solid #758c99;
+  border-radius: 5px;
+  background-color: #aac7d7  !important;
+  /* border-bottom: .3px solid #758c99; */
   transition: all .1s;
   scale: 1.2;
 }
+
+
+
+
 
 .nav-item .btn:hover {
   color: #28353d !important;
@@ -914,6 +933,11 @@ footer p {
   padding-top: 15px;
 }
 
+.ft-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 footer {
   width: 100%;
   /* height: 50px; */
@@ -923,7 +947,8 @@ footer {
   align-items: center;
   justify-content: center;
   text-align: center;
-
+ position: relative;
+ bottom: 0px;
 }
 
 .lastrowpad {
@@ -961,7 +986,9 @@ footer {
     margin-bottom: 0;
     
   }
-
+  #Contact_Us{
+    padding-top: 20px;
+  }
   .btn-box{
     align-items: center;
     text-align: center;
@@ -1066,7 +1093,7 @@ font-size: 22px;
 .xyz{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; 
   justify-content: center;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -1123,8 +1150,9 @@ font-size: 22px;
   }
 
   .nav-item a {
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    text-align: center;
   }
 
   .navbar-toggler {
@@ -1223,7 +1251,7 @@ font-size: 22px;
   }
 
   .rounded-card{
-    height: 400px;
+    height: 440px;
     padding: 0%;
   }
   
